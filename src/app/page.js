@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* Text Section */}
         <div className="text-center md:text-left">
-          <h2 className="text-xl text-gray-700">Hey Cookies, it's</h2>
+          <h2 className="text-xl text-gray-700">Hey Cookies, it&apos;s</h2>
           <h1 className="text-4xl font-bold text-blue-600">WELL <span className="text-gray-700">BEING</span></h1>
           <p className="text-gray-700 mt-4 mb-10">Your AI Mental Health Companion for Your Happier and Healthy Mind</p>
           <Link href="/chat" className="mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg text-lg shadow-md hover:bg-blue-700 transition-colors">

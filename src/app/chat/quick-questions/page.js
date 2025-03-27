@@ -22,7 +22,7 @@ export default function QuickQuestions() {
               href="/chat/conversation"
               className="bg-blue-100 p-6 rounded-lg hover:bg-blue-200 transition-colors"
             >
-              <h2 className="text-lg font-semibold mb-2 text-gray-700 tracking-wide">What&apos;s on your mind&lsquo;</h2>
+              <h2 className="text-lg font-semibold mb-2 text-gray-700 tracking-wide">What&apos;s on your mind?</h2>
               <p className="text-gray-700">
                 Talk about your thoughts and concerns
               </p>
@@ -31,7 +31,7 @@ export default function QuickQuestions() {
               href="/chat/conversation"
               className="bg-blue-100 p-6 rounded-lg hover:bg-blue-200 transition-colors"
             >
-              <h2 className="text-lg font-semibold mb-2 text-gray-700 tracking-wide">Need help&lsquo;</h2>
+              <h2 className="text-lg font-semibold mb-2 text-gray-700 tracking-wide">Need help?</h2>
               <p className="text-gray-700">
                 Get support and guidance for your mental health
               </p>

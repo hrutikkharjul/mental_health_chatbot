@@ -5,7 +5,7 @@ export async function POST(request) {
     const { message } = await request.json();
     
     // Forward request to Flask server
-    const response = await fetch('https://llmapi-production.up.railway.app/chat', {
+    const response = await fetch('http://127.0.0.1:5000/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

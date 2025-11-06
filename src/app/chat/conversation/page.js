@@ -46,7 +46,7 @@ export default function Conversation() {
       const data = await response.json();
       const aiMessage = {
         role: "assistant",
-        content: data.response,
+        content: data.response.reply,
       };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (err) {
